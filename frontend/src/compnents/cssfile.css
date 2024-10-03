@@ -1,0 +1,34 @@
+.custom-container {
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectname {
+    color: #333;
+  }
+  
+  .taskremainings span {
+    font-size: 1.2rem;
+  }
+  .Sidebar {
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity)); /* Use a subtle background color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+    font-family: 'Open Sans', sans-serif; /* Choose a clear font */
+  }
+  
+  .menu-items {
+    padding: 1rem;
+  }
+  
+  .menu-items div {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  @media (min-width: 640px) {
+    .sm\:orientation-vertical {
+      border-top: none !important;
+      border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
+      align-self: stretch;
+    }
+  }
